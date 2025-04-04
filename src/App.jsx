@@ -9,7 +9,7 @@ function App() {
   });
   const [editingId, setEditingId] = useState(null);
   const [showFinished, setShowFinished] = useState(true);
-// Something
+// Something some
   useEffect(() => {
     const timer = setTimeout(() => {
       localStorage.setItem("todos", JSON.stringify(todos));
